@@ -1,7 +1,4 @@
 import streamlit as st
-from powerbiclient import Report, models
-from powerbiclient.authentication import InteractiveLoginAuthentication
-
 
 st.title("Tableau de bord Food Fact project")
 
