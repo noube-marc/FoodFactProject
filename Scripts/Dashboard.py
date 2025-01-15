@@ -6,5 +6,3 @@ st.write("J'ai déployé cette application Streamlit pour permettre aux utilisat
 
 tableau_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=2a75c61d-eb3c-4256-b4b5-d954b369c302&autoAuth=true&ctid=08e06420-c505-4a4e-b259-e7ceee464ce8"
 st.components.v1.iframe(width=1140, height=541.25, src="https://app.fabric.microsoft.com/reportEmbed?reportId=2a75c61d-eb3c-4256-b4b5-d954b369c302&autoAuth=true&ctid=08e06420-c505-4a4e-b259-e7ceee464ce8")
-# Embed the Tableau dashboard
-#st.components.iframe(src=tableau_url, width=1000, height=700, scrolling=True)
